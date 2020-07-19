@@ -396,16 +396,16 @@ body {
 header {
     border: 1px blue solid;
     text-align: center;
-    background-color: darkgray;
+    background-color: black;
     color: white;
-    padding: 2%;
+
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     /* text-align: center; */
     text-transform: uppercase;
-    margin-top:5%;
+    margin: 5%;
     letter-spacing: 20px;
 }
 
@@ -413,6 +413,8 @@ h1 {
 nav {
     font-size: 2rem;
     width: 100%;
+    background-color: white;
+    padding: 2%;
 }
 
 .nav-links a {
@@ -421,16 +423,24 @@ nav {
     text-transform: uppercase;
     margin: 6%;
     color: white;
-    background-color: black;
+    /* background-color: black; */
     border-radius: 5%;
-    padding: 1% 1.5%;
+    padding: 0.2% 1.5%;
     width: 100%;
+    border:1px solid black;
+    background-color: black;
 }
 
 .heading:hover {
     color: black;
     cursor: pointer;
-    transition: .9s;
+    transition: 2s;
+}
+.heading:hover:after{
+    content: attr(data-hover);
+    color:white;
+    text-align: center;
+    
 }
 
 nav a:hover {
@@ -438,26 +448,38 @@ nav a:hover {
     cursor: pointer;
     transition: .9s;
 }
+
 .main-title {
     background-color: darkgray;
     text-align: center;
-    padding: 2%;
+    padding: 7%;
+    padding-bottom: 10%;
 }
+
 .main-title h2 {
     font-size: 3rem;
     color: white;
 }
-.main-title p{
+
+.main-title p {
     font-size: 2rem;
     color: white;
     width: 80%;
     margin: auto;
 }
+
 .social {
     text-align: center;
 
 }
-.social a{
+
+.social a {
     font-size: 4rem;
     margin: 2%;
+    color: white;
+}
+
+footer .social {
+    background-color: black;
+    padding: 2%;
 }
