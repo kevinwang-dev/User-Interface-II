@@ -407,6 +407,7 @@ header h1 {
     justify-content: space-evenly;
     font-size: 1.8rem;
     background-color: darkgray;
+    padding: 0 10% ;
 }
 
 .navbar a{
@@ -427,11 +428,7 @@ header h1 {
     background-color: beige;
     padding: 1%;
 }
-.img-container{
-   display: flex;
-   justify-content: center;
-   align-content: center;
-}
+
 
 footer{
     background-color: black;
@@ -447,4 +444,18 @@ footer{
 .social h3{
     color: white;
     font-size: 1.8rem;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.flex-box .image{
+    margin: 1%;
+   
+}
+
+.flex-box .notes{
+    text-align: center;
+    margin: 1%;
 }
