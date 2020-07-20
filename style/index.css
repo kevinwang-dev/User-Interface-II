@@ -393,3 +393,58 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 2%;
+    text-transform: capitalize;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.8rem;
+    background-color: darkgray;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    text-transform: uppercase;
+    padding: 1% 1%;
+}
+
+.navbar a:hover{
+    background-color: skyblue;
+}
+
+.title-heading{
+    margin: auto;
+    text-align:center;
+    background-color: beige;
+    padding: 1%;
+}
+.img-container{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 1%;
+}
+.social a{
+    color:white;
+    font-size: 3rem;
+    margin: 2%;
+
+}
+.social h3{
+    color: white;
+    font-size: 1.8rem;
+}
