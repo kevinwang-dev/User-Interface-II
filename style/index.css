@@ -405,15 +405,15 @@ header h1 {
     letter-spacing: 8px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-evenly;
     font-size: 2rem;
     background-color: darkgray;
-    padding: 0 10% ;
+    padding: 0 10%;
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
     color: white;
     padding: 1%;
@@ -421,43 +421,48 @@ header h1 {
     padding: 1% 1%;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background-color: skyblue;
 }
 
-.title-heading{
+.title-heading {
     margin: auto;
-    text-align:center;
+    text-align: center;
     background-color: beige;
     padding: 1%;
     font-size: 1.5rem;
 }
 
 
-footer{
+footer {
     background-color: black;
     text-align: center;
     padding: 1%;
 }
 
-.flex-box{
+.flex-box {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.flex-box .image{
+
+.flex-box .image {
     margin: 1%;
-   
+
 }
 
-.flex-box .notes{
+.flex-box .notes {
     text-align: center;
     margin: 1%;
 }
 
-.contact h3{
+.contact button {
     color: white;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    background-color: darkgray;
+    border: none;
+    border-radius: 5%;
+    padding: 10px;
 }
 
 .social {
@@ -467,40 +472,74 @@ footer{
     background-color: darkgray;
     padding: 5%;
 }
-.social a i{
+
+.social a i {
     font-size: 2rem;
     margin: 2%;
     color: white;
 }
 
-.social a i:hover{
+.social a i:hover {
     color: black;
     font-size: 4rem;
 }
 
-.myself{
+.myself {
     text-align: center;
     font-size: 2rem;
 }
 
-.my-container{
+.my-container {
     display: flex;
     /* flex-direction: column; */
     justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
-    
+
 }
 
-.item{
+.item {
     /* margin: 1% */
     align-self: flex-end;
 }
 
-.item img{
+.item img {
     border-radius: 10%;
     filter: grayscale(40%);
 }
-.item h3:hover{
+
+.item h3:hover {
     font-size: 2rem;
+}
+
+section h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+section img {
+    display: block;
+    margin: auto;
+
+}
+
+section img.bounce:hover{
+ width: 200px;
+ cursor: pointer;   
+}
+
+.pro-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+section h2{
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pitem img{
+    border-radius: 10%;
 }
