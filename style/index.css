@@ -440,21 +440,15 @@ footer {
     padding: 1%;
 }
 
-.flex-box {
+/* .flex-box {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
+    justify-content: space-around;
+    flex-wrap: column;
+} */
 
-.flex-box .image {
-    margin: 1%;
 
-}
 
-.flex-box .notes {
-    text-align: center;
-    margin: 1%;
-}
+
 
 .contact button {
     color: white;
@@ -542,4 +536,28 @@ section h2{
 
 .pitem img{
     border-radius: 10%;
+}
+
+.my-container img:hover{
+    filter: grayscale(100%);
+}
+.my-container h3:hover{
+    color: brown;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 2%;
+    flex-wrap: wrap;
+}
+.item img{
+    
+}
+
+.pro-image img{
+    width: 100%;
+    object-fit: cover;
+    height: 20rem;
 }
